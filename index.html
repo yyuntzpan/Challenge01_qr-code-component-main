@@ -1,28 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Outfit;
+    }
+
+    body {
+      background-color: rgb(213, 228, 242);
+    }
+
+    .card {
+      width: 375px;
+      height: auto;
+      margin: 30px auto;
+      background-color: white;
+      border-radius: 25px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .qr-code-box {
+      width: 100%;
+      margin: 0 auto 20px;
+    }
+
+    img {
+      border-radius: 14px;
+      width: 100%;
+    }
+
+    .text {
+      width: 90%;
+      margin: 0 auto;
+      ;
+    }
+
+    .title {
+      font-size: 25px;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+      margin-bottom: 15px;
+    }
+
+    .paragraph {
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      color: hsl(220, 15%, 55%);
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="card">
+    <div class="qr-code-box">
+      <img src="/images/image-qr-code.png" alt="qr-code">
+    </div>
+    <div class="text">
+      <p class="title">Improve your front-end skills by building projects</p>
+      <p class="paragraph">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
 
-  Improve your front-end skills by building projects
+  </div>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
+
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">yyuntzpan</a>.
   </div>
 </body>
+
 </html>
