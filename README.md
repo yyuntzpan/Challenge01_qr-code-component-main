@@ -27,7 +27,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [程式碼](https://github.com/yyuntzpan/Challenge01_qr-code-component-main/blob/main/index.html)
-- Live Site URL: [Add live site URL here](https://yyuntzpan.github.io/repository-name/)
+- Live Site URL: [Add live site URL here](https://challenge01-qr-code-component-main.vercel.app/)
 
 ## My process
 
